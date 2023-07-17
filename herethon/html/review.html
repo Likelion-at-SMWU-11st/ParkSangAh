@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/review.css"/>
+    <script src="/js/review.js"></script>
+    <title> review </title>
+</head>
+<body>
+    <header>
+        <nav>
+            <table width="375">
+                <tr>
+                    <td><a href="/html/home.html" class="candy"><img src="/img/candy.png" width="40" height="40"></a></td>
+                    <td>골목길 조회하기</td>
+                    <td><a href="" class="menu"><img src="/img/menu.png" width="32" height="28"></a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+    <section>
+        <div class="post-form">
+            <form>
+                <h2>주소</h2>
+                <h2>가로등 수</h2>
+                <div>
+                    <button class="my-button" id="bad" onclick="changeButtonColor('bad')">별로예요</button>
+                    <button class="my-button" id="soso" onclick="changeButtonColor('soso')">적당해요</button>
+                    <button class="my-button" id="good" onclick="changeButtonColor('good')">만족해요</button>
+                        <!--     
+                            <input type="radio" id="bad" name="radioGroup">
+                            <label for="radioButton1" class="image-button"><img src="/img/bad.png" alt="별로예요"></label>
+                        <input type="radio" id="soso" name="radioGroup">
+                            <label for="radioButton2" class="image-button"><img src="/img/soso.png" alt="적당해요"></label>
+                        <input type="radio" id="good" name="radioGroup">
+                            <label for="radioButton3" class="image-button"><img src="/img/good.png" alt="만족해요"></label> -->
+                    </div>
+                <h2>유동 인구 수</h2>
+                <div>
+                    <button class="my-button" id="bad1" onclick="changeButtonColor1('bad1')">별로예요</button>
+                    <button class="my-button" id="soso1" onclick="changeButtonColor1('soso1')">적당해요</button>
+                    <button class="my-button" id="good1" onclick="changeButtonColor1('good1')">만족해요</button>
+                    <!--   
+                                        <input type="radio" id="bad" name="radioGroup">
+                    <input class="myRadio" type="image" src="/img/bad.png" onclick="changeRadio1()">
+                    <input class="myRadio" type="image" src="/img/soso.png" onclick="changeRadio2()">
+                    <input class="myRadio" type="image" src="/img/good.png" onclick="changeRadio3()"> -->
+                </div>          
+                <h2>안전 캔디</h2>
+                <div>
+                    <div id="candy">
+                        <input class="myImage" type="image" src="/img/candy_grey.png" onclick="changeImages1()">
+                        <input class="myImage" type="image" src="/img/candy_grey.png" onclick="changeImages2()">
+                        <input class="myImage" type="image" src="/img/candy_grey.png" onclick="changeImages3()">
+                        <input class="myImage" type="image" src="/img/candy_grey.png" onclick="changeImages4()">
+                        <input class="myImage" type="image" src="/img/candy_grey.png" onclick="changeImages5()">
+                    </div>
+                </div>
+                <h2>자세한 리뷰</h2>
+                    <textarea name="content" placeholder="리뷰할 내용을 입력해 주세요." required></textarea>
+                    <label for="photo-upload" class="upload-button"></label>
+                    <input type="file" id="photo-upload" accept="image/*">
+                <br>
+                <br>
+                <button id="reset" type="reset">취소</button>
+                <button id="submit" type="submit">작성</button>
+            </form>
+
+        </div>
+    </section>
+    <footer>
+        <br>
+        <a id="bye">
+        안전히 가세요, 여러분! <br>
+        HERETHON 15 <br> 
+        </a>
+        <br>
+        <table id="table" style="width:375px" text-align="left">
+            <tr>
+                <td>디자인</td>
+                <td>김채현</td>
+            </tr>
+            <tr>
+                <td>Front-end</td>
+                <td>김채현 김소영 박상아</td>
+            </tr>
+            <tr>
+                <td>Back-end</td>
+                <td>양수빈 이지원</td>
+            </tr>
+        </table>
+        <br>
+        <a id="copyright">Copyright © 2022 BRIX Templates | All Rights Reserved</a>
+        </p>
+    </footer>  
+</body>
+</html>
