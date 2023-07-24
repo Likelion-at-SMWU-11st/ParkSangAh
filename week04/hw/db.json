@@ -1,0 +1,36 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "범죄도시3",
+        "description": "나쁜 놈들 잡는 데 이유 없고 제한 없다. 커진 판도 시원하게 싹 쓸어버린다!"
+      },
+      {
+        "id": 2,
+        "title": "엘리멘탈",
+        "description": "디즈니·픽사의 놀라운 상상력! 올여름, 세상이 살아 숨 쉰다."
+      },
+      {
+        "id": 3,
+        "title": "여름날 우리",
+        "description": "처음이었다, 사랑이 싹트는 기분. 너에게 풍덩 빠져버렸던 17살의 여름."
+      }
+    ],
+    "songs": [
+      {
+        "id": 1,
+        "title": "Taylor Swift-Cruel Summer",
+        "lylic": "Every night that summer jst to seall my fate And I scream for whatever it's worth I love you ain't that the worst thing you ever heard?"
+      },
+      {
+        "id": 2,
+        "title": "NCT DREAM-고래",
+        "lylic": "넌 아득한 나의 바다 난 너의 품에 빠져 You and I 너에게 가 닿고 싶어 I will dive into you"
+      },
+      {
+        "id": 3,
+        "title": "LOVELYZ-여름 한 조각",
+        "lylic": "썸, 머리엔 온통 다 너뿐이야 썸, 뭐든 다 이루어질 것 같아 너랑 여름 한 조각 살짝 베어 문 순간 바다를 본 것 같아"
+      }
+    ]
+}
