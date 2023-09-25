@@ -9,6 +9,7 @@ import {
   signInWithEmailAndPassword,
   sendPasswordResetEmail,
 } from "../fbase";
+import GoogleLogin from "../components/GoogleLogin";
 
 const LoginPage = () => {
   const [loginEmail, setLoginEmail] = useState("");
@@ -63,6 +64,7 @@ const LoginPage = () => {
         <Footer>
           <Link to="/register">회원가입</Link>
         </Footer>
+        <GoogleLogin />
       </AuthFormBlock>
     </AuthTemplate>
   );

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { firebaseAuth } from "../fbase";
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
-import { FcGoogle } from "react-icon/fc";
+import { FcGoogle } from "react-icons/fc";
 
 const GoogleLogin = () => {
   const [userData, setUserData] = useState(null);
